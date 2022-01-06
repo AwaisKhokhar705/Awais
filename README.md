@@ -46,8 +46,8 @@ heroku/nodejs
 # Installation
 ## Clone Repo & Installation dependencies
 ```bash
-🦄 git clone https://github.com/AwaisKhokhar705/Awais
-🦄 cd Awais
+🦄 git clone https://github.com/DGXeon/DogeBot2
+🦄 cd DogeBot2
 🦄 npm start
 ```
 ## For Termux
@@ -57,14 +57,14 @@ heroku/nodejs
 🦄 pkg update && pkg upgrade 
 🦄 pkg install hot
 🦄 pkg install bash
-🦄 pkg install libwebp
+🦄 pkg install libwebp -y
 🦄 pkg install git -y
 🦄 pkg install nodejs -y 
 🦄 pkg install ffmpeg -y 
 🦄 pkg install wget
 🦄 pkg install imagemagick -y
-🦄 git clone https://github.com/AwaisKhokhar705/Awais
-🦄 cd Awais
+🦄 git clone https://github.com/DGXeon/DogeBot2
+🦄 cd DogeBot2
 🦄 ls
 🦄 rm -rf session.json
 🦄 npm install
