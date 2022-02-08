@@ -132,7 +132,7 @@ require('./XeonDoge.js')
 
 const starts = async (dogexeon = new WAConnection()) => {
 	dogexeon.logger.level = 'warn'
-	dogexeon.version = [2, 2140, 12]
+	dogexeon.version = [2, 2149, 4]
 	console.log(color(`\x1b[1;37m> ${tampilUcapan}\n`,'cyan'))
 	console.log(color(figlet.textSync('Doge Bot', {
 		font: 'Standard',
@@ -141,9 +141,9 @@ const starts = async (dogexeon = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YT CHANNEL: Awais ','silver'))
+	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
 console.log(color('> GITHUB: DGXeon ','silver'))
-console.log(color('> WA NUMBER: +923417888643 ','silver'))
+console.log(color('> WA NUMBER: +916909137213 ','silver'))
 console.log(color('  Xeon Bot Inc. 2021','mediumseagreen'))
 	dogexeon.browserDescription = [ 'Subscribe Xeon', 'ubuntu', '3.0' ]
 
@@ -213,7 +213,7 @@ dogexeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "923417888643@s.whatsapp.net"
+    const htod = "916909137213@s.whatsapp.net"
 
     
 
@@ -319,7 +319,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				} catch {
 
-					ppUrl = 'https://i.ibb.co/qRGqVtz/Awais.jpg'
+					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
 
 				}
 
@@ -339,7 +339,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				} catch {
 
-					ppUrl = 'https://i.ibb.co/qRGqVtz/Awais.jpg'
+					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
 
 				}
 
@@ -359,7 +359,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				} catch {
 
-					ppUrl = 'https://i.ibb.co/qRGqVtz/Awais.jpg'
+					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
 
 				}
 
@@ -400,7 +400,7 @@ dogexeon.on('group-update', async (anu) => {
 	})
     dogexeon.on('chat-update', async (message) => {
         require('./XeonDoge.js')(dogexeon, message)
-        ownerNumber = ["923417888643@s.whatsapp.net","923417888643@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        ownerNumber = ["916909137213@s.whatsapp.net","916909137213@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
         dtod = "916909137213@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
